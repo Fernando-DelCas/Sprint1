@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1200px;
+    background: #f2f2f2;
+}
+
+header {
+    width: 1180px;
+    height: 70px;
+    background: brown;
+    border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    width: 20%;
+    height: 10px;
+    background: #270e96;
+    position: relative;
+    margin: 25px;
+   
+}
+
+.box2 {
+    width: 60%;
+    height: 10px;
+    background: #270e96;
+    margin: 25px;
+    
+}
+
+nav {
+    width: 1180px;
+    height: 70px;
+    background: orange;
+    border: 10px solid black;
+}
+
+.box3 {
+    width: 95%;
+    height: 10px;
+    background: #ffe600;
+    margin: 25px;
+}
+
+article {
+    margin-top: 10px;
+    width: 1200px;
+    display: flex;
+}
+
+section {
+    width: 80%;
+    height: 100px;
+    background: blueviolet;
+    border: 10px solid black;
+}
+
+.box4 {
+    width: 35%;
+    height: 10px;
+    background: #00ff15;
+    margin: 10px 50px;
+    display: inline-block;
+}
+
+.box5 {
+    width: 83%;
+    height: 10px;
+    background: blue;
+    margin: 10px 50px;
+    display: inline-block;
+    
+}
+
+aside {
+    width: 380px;
+    height: 100px;
+    background: blue;
+    border: 10px solid black;
+   
+}
+
+.box6 {
+    width: 90%;
+    height: 10px;
+    background: #00ff15;
+    margin: 20px;
+   
+}
+
+footer {
+    margin-top: 10px;;
+    width: 1180px;
+    height: 15px;
+    background: yellow;
+    border: 10px solid black;
+}
+
+
+
+@media (max-width: 600px) {
+    
+    header {
+        width: 100%;
+        background: brown;
+        border: 10px solid black;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box {
+        width: 20%;
+        height: 10px;
+        background: #270e96;
+        margin: 25px;
+    }
+    
+    .box2 {
+        width: 40%;
+        height: 10px;
+        background: #270e96;
+        margin: 25px;
+    }
+    
+    nav {
+        width: 100%;
+        height: 70px;
+        background: orange;
+        border: 10px solid black;
+    }
+
+    .box3 {
+        width: 90%;
+        height: 10px;
+        background: #ffe600;
+        margin: 5px;
+        position: relative;
+        top:25px;
+        left: 20px;
+    }
+    article {
+        width: auto;
+        flex-direction: column;
+    }
+    
+    section {
+        width: 100%;
+        height: auto;
+        display: block;
+        border: 20px, solid yellow;
+    }
+    .box4 {
+        width: 90%;
+        height: 10px;
+        background: #00ff15;
+        margin: 10px 25px;
+        display: inline-block
+    }
+    
+    .box5 {
+        width: 90%;
+        height: 10px;
+        background: blue;
+        margin: 10px 25px;
+        display: inline-block;
+        
+    }
+    
+    aside {
+        width: 100%;
+        display: block;
+        border: 20px, solid yellow;
+    }  
+
+    .box6 {
+        width: 90%;
+        height: 10px;
+        background: #00ff15;
+        margin: 20px;
+     }
+    footer {
+        margin-top: 10px;;
+        width: 100%;
+        height: 15px;
+        background: yellow;
+        border: 10px solid black;
+    }
+}
+
+
+
